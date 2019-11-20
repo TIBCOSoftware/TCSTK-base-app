@@ -1,7 +1,7 @@
 
 import { Component, OnInit, EventEmitter , Input, Output} from '@angular/core';
 import {RouteAction} from '@tibco-tcstk/tc-core-lib';
-import {LiveAppsHomeCockpitComponent,Roles,RouteAccessControlConfigurationElement} from '@tibco-tcstk/tc-liveapps-lib';
+import {LiveAppsHomeCockpitComponent,Roles} from '@tibco-tcstk/tc-liveapps-lib';
 import {CustomFormDefs} from '@tibco-tcstk/tc-forms-lib';
 
 @Component({
@@ -55,7 +55,7 @@ export class HomeCockpitComponent extends LiveAppsHomeCockpitComponent implement
     /**
      * RouteAccessControlConfig - basically the config for access control
      */
-@Input() access: RouteAccessControlConfigurationElement;
+//@Input() access: RouteAccessControlConfigurationElement;
 
     /**
      * Custom Form configuration file
@@ -65,13 +65,13 @@ export class HomeCockpitComponent extends LiveAppsHomeCockpitComponent implement
     /**
      * Enable legacy workitems
      */
-@Input() legacyWorkitems: boolean = this.legacyWorkitems ? this.legacyWorkitems : false;
+//@Input() legacyWorkitems: boolean = this.legacyWorkitems ? this.legacyWorkitems : false;
 
     /**
      * Enable legacy creators
      */
 
-@Input() legacyCreators: boolean = this.legacyCreators ? this.legacyCreators : false;
+//@Input() legacyCreators: boolean = this.legacyCreators ? this.legacyCreators : false;
     /**
      * ~event routeAction : Component requests route to another page
      * ~payload RouteAction : RouteAction object to tell caller to navigate somewhere

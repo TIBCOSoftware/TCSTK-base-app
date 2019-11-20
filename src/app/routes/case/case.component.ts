@@ -1,6 +1,6 @@
 import {Component, OnDestroy, OnInit, ViewChild} from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
-import {LiveAppsConfig, Groups, Roles, RouteAccessControlConfigurationElement} from '@tibco-tcstk/tc-liveapps-lib';
+import {LiveAppsConfig, Groups, Roles} from '@tibco-tcstk/tc-liveapps-lib';
 import { Claim, Sandbox } from '@tibco-tcstk/tc-core-lib';
 
 import {GeneralConfig, RouteAction} from '@tibco-tcstk/tc-core-lib';
@@ -23,7 +23,7 @@ export class CaseComponent implements OnInit {
   public typeId: string;
   public groups: Groups;
   public roles: Roles;
-  public access: RouteAccessControlConfigurationElement;
+  //public access: RouteAccessControlConfigurationElement;
   public customFormDefs: CustomFormDefs;
   public workitemId: number;
 
@@ -58,7 +58,7 @@ export class CaseComponent implements OnInit {
     this.claims = this.route.snapshot.data.claims;
     this.groups = this.route.snapshot.data.groups;
     this.roles = this.route.snapshot.data.roles;
-    this.access = this.route.snapshot.data.access;
+    //this.access = this.route.snapshot.data.access;
     this.customFormDefs = this.route.snapshot.data.customFormDefs;
     this.sandbox = this.claims.primaryProductionSandbox;
     this.caseRef = this.route.snapshot.params.caseRef;

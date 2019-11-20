@@ -7,7 +7,7 @@ import {LogLevel, LogService} from '@tibco-tcstk/tc-core-lib';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'TCSTKTEMPLATE';
+  title = 'TCSTK-Base-App';
 
   constructor(private logger: LogService) {
     logger.level = LogLevel.Debug;
