@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "TCSTKTEMPLATE": {
+    "tcstk-base-app": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -19,7 +19,7 @@
               "hidden": true,
               "vendor": true
             },
-            "outputPath": "dist/TCSTKTEMPLATE",
+            "outputPath": "dist/tcstk-base-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -63,7 +63,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "TCSTKTEMPLATE:build",
+            "browserTarget": "tcstk-base-app:build",
             "sourceMap": {
               "scripts": true,
               "styles": true,
@@ -72,14 +72,14 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "TCSTKTEMPLATE:build:production"
+              "browserTarget": "tcstk-base-app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "TCSTKTEMPLATE:build"
+            "browserTarget": "tcstk-base-app:build"
           }
         },
         "test": {
@@ -113,7 +113,7 @@
         }
       }
     },
-    "TCSTKTEMPLATE-e2e": {
+    "tcstk-base-app-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -122,11 +122,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "TCSTKTEMPLATE:serve"
+            "devServerTarget": "tcstk-base-app:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "TCSTKTEMPLATE:serve:production"
+              "devServerTarget": "tcstk-base-app:serve:production"
             }
           }
         },
@@ -422,5 +422,5 @@
     }
   },
   },
-  "defaultProject": "TCSTKTEMPLATE"
+  "defaultProject": "tcstk-base-app"
 }
