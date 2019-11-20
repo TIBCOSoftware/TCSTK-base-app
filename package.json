@@ -1,5 +1,5 @@
 {
-  "name": "TCSTKTEMPLATE",
+  "name": "tcstk-base-app",
   "version": "1.1.0",
   "scripts": {
     "tcli": "npm install gulp-cli -g && npm install -g @tibco-tcstk/cloud-cli && tcli",
@@ -12,8 +12,8 @@
     "serve_eu": "ng serve --proxy-config proxy.conf.prod.eu.json --ssl true --source-map=true --aot",
     "serve_us": "ng serve --proxy-config proxy.conf.prod.us.json --ssl true --source-map=true --aot",
     "serve_au": "ng serve --proxy-config proxy.conf.prod.au.json --ssl true --source-map=true --aot",
-    "build_prod_hash": "ng build --prod --base-href /webresource/apps/TCSTKTEMPLATE/index.html --deploy-url /webresource/apps/TCSTKTEMPLATE/ && cd ./dist/TCSTKTEMPLATE/ && zip -r ./app.zip ./* && cd ../..",
-    "build_prod": "ng build --prod --base-href /webresource/apps/TCSTKTEMPLATE/ --deploy-url /webresource/apps/TCSTKTEMPLATE/ && cd ./dist/TCSTKTEMPLATE/ && zip -r ./app.zip ./* && cd ../.."
+    "build_prod_hash": "ng build --prod --base-href /webresource/apps/tcstk-base-app/index.html --deploy-url /webresource/apps/tcstk-base-app/ && cd ./dist/tcstk-base-app/ && zip -r ./app.zip ./* && cd ../..",
+    "build_prod": "ng build --prod --base-href /webresource/apps/tcstk-base-app/ --deploy-url /webresource/apps/tcstk-base-app/ && cd ./dist/tcstk-base-app/ && zip -r ./app.zip ./* && cd ../.."
   },
   "private": true,
   "dependencies": {
