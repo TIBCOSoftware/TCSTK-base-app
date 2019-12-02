@@ -1,5 +1,4 @@
-
-import { Component, OnInit, EventEmitter , Input, Output} from '@angular/core';
+import {Component, EventEmitter, Input, Output, OnChanges, SimpleChanges} from '@angular/core';
 import {RouteAction} from '@tibco-tcstk/tc-core-lib';
 import {LiveAppsHomeCockpitComponent,Roles} from '@tibco-tcstk/tc-liveapps-lib';
 import {CustomFormDefs} from '@tibco-tcstk/tc-forms-lib';
@@ -10,7 +9,7 @@ import {CustomFormDefs} from '@tibco-tcstk/tc-forms-lib';
     styleUrls: ['./home-cockpit-style.css']
 })
 
-export class HomeCockpitComponent extends LiveAppsHomeCockpitComponent implements OnInit {
+export class HomeCockpitComponent extends LiveAppsHomeCockpitComponent implements OnChanges {
 
     /**
      * The Application ID of the UI (should ideally be unique as it is shared state key)
@@ -78,9 +77,9 @@ export class HomeCockpitComponent extends LiveAppsHomeCockpitComponent implement
      */
 @Output() routeAction: EventEmitter<RouteAction> = new EventEmitter<RouteAction>();
 
-    ngOnInit(){
-        super.ngOnInit();
-    }
+  ngOnChanges(changes: SimpleChanges): void {
+    super.ngOnChanges(changes);
+  }
 
 
 }
