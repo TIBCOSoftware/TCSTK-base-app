@@ -1,8 +1,7 @@
-### TIBCO Cloud™ Starters Toolkit -- Base App
-TCSTK Pattern - Base App, is an sample that just contains Core TIBCO Cloud Components.
+### TIBCO Cloud™ Starters Toolkit - Base App
+TCSTK Pattern - Base App, is a sample that just contains Core TIBCO Cloud Components.
 
-The **Base Pattern App**, just contains everything from Authorization and Navigation to standard Configure Options.
-Ready to start you individual Solution from Scratch.
+The Pattern application **Base App**, just contains the essentials for you to build your TIBCO Cloud solution from scratch, including from authorization and navigation to standard configuration options.
 
 ![alt-text](docs/img/base-app.png "Image")
 
