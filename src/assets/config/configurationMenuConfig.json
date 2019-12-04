@@ -9,15 +9,6 @@
         "Landing Page",
         "Access Control"
       ]
-    },
-    {
-      "entry": "Live Apps",
-      "icon": "tcs-liveapps-sm-icon",
-      "options": [
-        "App Selection",
-        "Recent Cases",
-        "Summary Cards"
-      ]
     }
   ]
 }
