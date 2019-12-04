@@ -1,7 +1,7 @@
 {
-  "browserTitle": "TIBCO Cloud Base App",
-  "applicationTitle": "Base App (TIBCO LABS™)",
-  "welcomeMessage": "Welcome to the Base App",
+  "browserTitle": "TIBCO Cloud TCSTKBaseApp",
+  "applicationTitle": "TCSTKBaseApp (TIBCO LABS™)",
+  "welcomeMessage": "Welcome to the TCSTKBaseApp",
   "roles": [
     {
       "id": "User",
