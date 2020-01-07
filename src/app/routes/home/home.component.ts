@@ -75,7 +75,7 @@ export class HomeComponent implements OnInit {
     this.userName = this.claims.firstName + ' ' + this.claims.lastName;
     this.email = this.claims.email;
     this.userId = this.claims.id;
-    this.welcomeMessage = this.generalConfig.welcomeMessage ? this.generalConfig.welcomeMessage : 'Welcome to your Base App';
+    this.welcomeMessage = this.generalConfig.welcomeMessage ? this.generalConfig.welcomeMessage : 'Welcome to your TCSTKBaseApp';
   }
 
 }

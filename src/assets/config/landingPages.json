@@ -5,8 +5,8 @@
         {
             "key": "id1",
             "description": "User",
-            "title": "Welcome to your Cloud Starter",
-            "subtitle": "A Cloud Application for: TCSTKTEMPLATE",
+            "title": "Welcome to your Cloud Starter TCSTKBaseApp",
+            "subtitle": "A Cloud Base Application",
             "highlights": [
                 {
                     "title": "Solution",

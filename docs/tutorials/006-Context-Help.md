@@ -18,7 +18,7 @@ In case no Help is defined you will see just the following
 
 So for example the user goes to the page:
 
-```https://eu.liveapps.cloud.tibco.com/webresource/apps/TCSTKTEMPLATE/index.html#/starterApp/home```
+```https://eu.liveapps.cloud.tibco.com/webresource/apps/tcstk-case-manager-app/index.html#/starterApp/home```
 
 You can set a help page in:
 
