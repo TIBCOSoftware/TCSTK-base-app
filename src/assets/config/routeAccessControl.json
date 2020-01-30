@@ -1,16 +1,16 @@
 {
     "allowedRoutes": ["/starterApp/configuration"],
-    "allowedButtonIds": ["caseStart","refresh","favorite","configure"],
+    "allowedButtonIds": ["refresh", "configure"],
     "configuration": [
         {
             "roleId": "Administrator",
             "routes": ["/starterApp/configuration"],
-            "buttonIds": ["caseStart","refresh","favorite","configure"]
+            "buttonIds": ["refresh","configure"]
         },
         {
             "roleId": "User",
             "routes": [],
-            "buttonIds": ["caseStart","refresh","favorite"]
+            "buttonIds": ["refresh"]
         }
     ]
 }
