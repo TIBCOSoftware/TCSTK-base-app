@@ -31,6 +31,7 @@ import { SplashComponent } from './routes/splash/splash.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeCockpitComponent } from './home-cockpit/home-cockpit.component';
 import {HTTP_INTERCEPTORS} from '@angular/common/http';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 /** This is the tc core configuration object
  * To use oauth you must also add the OAuthInterceptor to providers
@@ -62,6 +63,7 @@ const tcCoreConfig: TcCoreConfig = {
     TcLiveappsLibModule.forRoot(),
     FlexLayoutModule,
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     MatTabsModule,
     MatExpansionModule,
