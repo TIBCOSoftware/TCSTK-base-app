@@ -10,10 +10,10 @@ import {TcAppDefinitionService} from "@tibco-tcstk/tc-liveapps-lib";
 export class AppComponent {
   title = 'TCSTK-Base-App';
 
-  constructor(private logger: LogService, protected appDefinitionService: TcAppDefinitionService) {
+  constructor(private logger: LogService) {
     logger.level = LogLevel.Debug;
     logger.info('My Cloud Starter Online...');
-
+    //USE: protected appDefinitionService: TcAppDefinitionService
     /* example to retrieve custom configuration from appConfig.json */
     /****************************************************************/
     /* note this can only be retrieved after a login since appDefinitionService wont be initialized until after a login */
