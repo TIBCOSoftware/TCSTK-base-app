@@ -1,11 +1,11 @@
 import {HomeComponent} from '../../routes/home/home.component';
 import {
-  AuthGuard,
   ConfigurationMenuConfigResolver,
   GeneralConfigResolver,
   GeneralLandingPageConfigResolver,
 } from '@tibco-tcstk/tc-core-lib';
 import {
+  AuthGuard,
   AccessResolver,
   CaseGuard,
   ClaimsResolver,
