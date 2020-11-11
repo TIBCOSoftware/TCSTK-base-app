@@ -12,10 +12,13 @@ export class AppComponent {
 
   constructor(private logger: LogService) {
     logger.level = LogLevel.Debug;
-    logger.info('My Cloud Starter Online...');
-    //USE: protected appDefinitionService: TcAppDefinitionService
+    logger.info('tcstk-base-app Online...');
     /* example to retrieve custom configuration from appConfig.json */
     /****************************************************************/
+    // TO USE CUSTOM CONFIG:
+    // STEP 1: Rename appConfig_custom.json to appConfig.json in src/assets/config
+    // STEP 2: Add the following service to this constructor: protected appDefinitionService: TcAppDefinitionService
+    // STEP 3: Define your custom configuration :-)
     /* note this can only be retrieved after a login since appDefinitionService wont be initialized until after a login */
     /* to add custom config, create a new model in the app for the customConfig structure (eg:) models/customConfig1.ts
      * then add your config in assets/appConfig.json under a new child object of config. eg)
