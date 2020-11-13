@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import {TcLiveappsLibModule} from '@tibco-tcstk/tc-liveapps-lib';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+/*
 import {
   MatButtonModule, MatButtonToggleModule,
   MatCardModule,
@@ -14,6 +15,24 @@ import {
   MatListModule, MatMenuModule, MatOptionModule, MatSelectModule,
   MatTabsModule, MatToolbarModule, MatTooltipModule
 } from '@angular/material';
+*/
+
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatOptionModule} from '@angular/material/core';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatSelectModule} from '@angular/material/select';
+import {MatIconModule} from '@angular/material/icon';
+import {MatListModule} from '@angular/material/list';
+import {MatInputModule} from '@angular/material/input';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatCardModule} from '@angular/material/card';
+import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatButtonModule} from '@angular/material/button';
 import {
   LogService, OAuthInterceptor,
   ProxyInterceptor,

@@ -1,12 +1,12 @@
 import {LoginComponent} from '../routes/login/login.component';
 import {
-  AuthGuard,
   GeneralConfigResolver,
   LoginPrefillResolver,
   TibcoCloudErrorComponent,
 } from '@tibco-tcstk/tc-core-lib';
 import {StarterAppComponent} from '../routes/starter-app/starter-app.component';
 import {
+  AuthGuard,
   ClaimsResolver,
 } from '@tibco-tcstk/tc-liveapps-lib';
 import {STARTER_APP_ROUTES, STARTER_APP_PROVIDERS, HOME_ROUTE } from './starter-app-route-config/starter-app-route-config';
