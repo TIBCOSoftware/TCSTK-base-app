@@ -4,14 +4,14 @@
     "section": [
       {
         "type": "video",
-        "name": "Getting started with Cloud Starters",
-        "label": "Introduction to cloud starter apps",
+        "name": "Getting started with Cloud Apps",
+        "label": "Introduction to cloud apps",
         "title": "Getting started",
         "item": [
           {
             "type": "video",
             "name": "name of the video",
-            "label": "Your first cloud starter app",
+            "label": "Your first cloud app",
             "title": "title 2",
             "url": "assets/help/videos/video.mp4",
             "default": "true",
@@ -29,7 +29,7 @@
           {
             "type": "video",
             "name": "name of the video",
-            "label": "Your second cloud starter app",
+            "label": "Your second cloud app",
             "title": "title 2",
             "url": "assets/help/videos/video.mp4",
             "default": "true",
