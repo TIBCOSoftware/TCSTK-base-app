@@ -32,7 +32,7 @@ export class StarterAppComponent implements OnInit {
     //         children: STARTER_APP_ROUTES
 
     this.config = this.route.snapshot.data.config;
-    this.titleService.setTitle(this.config.browserTitle ? this.config.browserTitle : 'Tibco Cloud Starters');
+    this.titleService.setTitle(this.config.browserTitle ? this.config.browserTitle : 'Tibco Cloud Apps');
   }
 
 }
