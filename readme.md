@@ -1,5 +1,5 @@
-### Starters Toolkit for TIBCO Cloud™ - Base App
-TCSTK Pattern - Base App, is a sample that just contains Core TIBCO Cloud Components.
+### TIBCO Cloud™ Composer - Base App
+Pattern - Base App, is a sample that just contains Core TIBCO Cloud Components.
 
 The Pattern application **Base App**, contains the essentials for you to build your TIBCO Cloud solution from scratch, including authorization and navigation to standard configuration options.
 
@@ -13,4 +13,4 @@ Also if the App should be hosted on TIBCO Cloud, a TIBCO Cloud LiveApps Subscrip
 Copyright © 2021. TIBCO Software Inc.<br>
 This file is subject to the license terms contained in the license file that is distributed with this file. 
 
-Please see 'TIB_cloud-starters-toolkit_x.x.x_license'.pdf/.txt for details of license and dependent third party components referenced by this library.
+Please see 'TIB_cloud-composer_x.x.x_license'.pdf/.txt for details of license and dependent third party components referenced by this library.
