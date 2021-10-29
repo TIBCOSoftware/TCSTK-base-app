@@ -1,6 +1,6 @@
 {
-  "name": "tcstk-base-app",
-  "version": "3.0.1",
+  "name": "TCSTKBaseApp",
+  "version": "3.2.0",
   "scripts": {
     "tcli": "npm install -g @tibco-tcstk/cloud-cli && tcli",
     "ng": "ng",
