@@ -10,7 +10,9 @@ This Pattern App is using some Services Offerings of the TIBCO Cloud LiveApps Su
 Also if the App should be hosted on TIBCO Cloud, a TIBCO Cloud LiveApps Subscription is needed to upload the App to the Web Resource Provisioning Service.
 
 # License
-Copyright © 2021. TIBCO Software Inc.<br>
-This file is subject to the license terms contained in the license file that is distributed with this file. 
+Copyright © 2022. TIBCO Software Inc.<br>
+This file is subject to the license terms contained in the license file that is distributed with this file.
 
-Please see 'TIB_cloud-composer_x.x.x_license'.pdf/.txt for details of license and dependent third party components referenced by this library.
+For more license details and dependent third party components referenced by this library, see here:
+- [TIBCO Cloud Composer License PDF](https://tibcosoftware.github.io/TCSToolkit/about/TIB_cloud-composer_license.pdf)
+- [TIBCO Cloud Composer License TXT](https://tibcosoftware.github.io/TCSToolkit/about/TIB_cloud-composer_license.txt)
